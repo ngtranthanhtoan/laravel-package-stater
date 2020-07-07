@@ -1,4 +1,4 @@
-<?php namespace Hapiwork\Freshdesk;
+<?php namespace Hapiwork\Package;
 
 use Illuminate\Support\ServiceProvider;
 

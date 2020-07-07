@@ -1,4 +1,4 @@
-<?php namespace Hapiwork\Freshdesk\Models;
+<?php namespace Hapiwork\Package\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

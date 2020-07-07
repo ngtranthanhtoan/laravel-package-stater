@@ -1,5 +1,5 @@
 {
-    "name": "hapiwork/freshdesk",
+    "name": "hapiwork/package",
     "description": "A package for intaracting with freshdesk service through API",
     "license": "MIT",
     "authors": [
@@ -16,12 +16,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Hapiwork\\Freshdesk\\": "src"
+            "Hapiwork\\Package\\": "src"
         }
     }, 
     "autoload-dev": {
         "psr-4": {
-            "Hapiwork\\Freshdesk\\Tests\\": "tests"
+            "Hapiwork\\Package\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hapiwork\\Package\\PackageServiceProvider"
+            ]
         }
     }
 }
